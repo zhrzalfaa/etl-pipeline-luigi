@@ -120,11 +120,11 @@ Untuk menyelesaikan masalah ini, kita akan membuat pipeline ETL yang akan mengum
 10. ## Melakukan scheduling menggunakan`cron`
 
    **Membuka crontab**
-   ```bash
+     ```bash
      crontab -e
      ```
-   **Tambahkan schedule untuk menjalankan pipeline setiap jam 2 pagi**
-    ```bash
+   **Kemudian melakukan scheduling pada jam 2 pagi**
+     ```bash
      0 2 * * * /Users/user/data-eng/run_etl.sh >> /Users/user/data-eng/log/cron_log.log 2>&1
      ```
    **Verifikasi crontab untuk memastikan schedule telah dilakukan**
