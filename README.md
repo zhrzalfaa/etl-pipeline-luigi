@@ -20,7 +20,7 @@ Untuk menyelesaikan masalah ini, kita akan membuat pipeline ETL yang akan mengum
 
 ## Luigi ETL Output
 
-![Diagram ETL](assets/etl.drawio.png)
+![Diagram ETL](assets/etl.png)
 
 ### Penjelasan Pipeline
 
