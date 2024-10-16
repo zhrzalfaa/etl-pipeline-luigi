@@ -93,7 +93,7 @@ Untuk menyelesaikan masalah ini, kita akan membuat pipeline ETL yang akan mengum
 5. ## Mmebuat file db_connector.py dan scraper_helper.py
 
    - File db_connector.py digunakan untuk mengelola koneksi ke database dan memudahkan akses ke database dalam pipeline ETL menggunakan library  `sqlalchemy` dan `psycopg2`
-   - File scraper_helper.py digunakan untuk mengirim request ke halaman web menggunakan library seperti `requests` dan `BeautifulSoup`
+   - File scraper_helper.py digunakan untuk melakukan web scraping menggunakan library seperti `requests` dan `BeautifulSoup`
 
 6. ## Membuat ETL Pipeline
    **Membuat script pipeline dengan nama file `etl_pipeline.py` yang berisi proses etl pipeline.**
