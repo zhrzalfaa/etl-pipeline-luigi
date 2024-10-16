@@ -1,0 +1,274 @@
+DEBUG: Checking if ExtractAmazonData() is complete
+INFO: Informed scheduler that task   ExtractAmazonData__99914b932b   has status   PENDING
+DEBUG: Checking if ExtractProductData(csv_file=/Users/user/Downloads/ElectronicsProductsPricingData.csv) is complete
+INFO: Informed scheduler that task   ExtractProductData__Users_user_Down_57f6f1172f   has status   PENDING
+DEBUG: Checking if ExtractMydramalistData(total_pages=45) is complete
+INFO: Informed scheduler that task   ExtractMydramalistData_45_a768cdd764   has status   PENDING
+DEBUG: Checking if ValidateData() is complete
+DEBUG: Checking if ExtractAmazonData() is complete
+DEBUG: Checking if ExtractProductData(csv_file=/Users/user/Downloads/ElectronicsProductsPricingData.csv) is complete
+DEBUG: Checking if ExtractMydramalistData(total_pages=45) is complete
+INFO: Informed scheduler that task   ValidateData__99914b932b   has status   PENDING
+INFO: Informed scheduler that task   ExtractMydramalistData_45_a768cdd764   has status   PENDING
+INFO: Informed scheduler that task   ExtractProductData__Users_user_Down_57f6f1172f   has status   PENDING
+INFO: Informed scheduler that task   ExtractAmazonData__99914b932b   has status   PENDING
+DEBUG: Checking if TransformAmazonData(output_file=/Users/user/data-eng/data/transform/transform_amazon_data.csv) is complete
+DEBUG: Checking if ValidateData() is complete
+INFO: Informed scheduler that task   TransformAmazonData__Users_user_data_3b6480bd26   has status   PENDING
+DEBUG: Checking if ExtractAmazonData() is complete
+DEBUG: Checking if ExtractProductData(csv_file=/Users/user/Downloads/ElectronicsProductsPricingData.csv) is complete
+DEBUG: Checking if ExtractMydramalistData(total_pages=45) is complete
+INFO: Informed scheduler that task   ValidateData__99914b932b   has status   PENDING
+INFO: Informed scheduler that task   ExtractMydramalistData_45_a768cdd764   has status   PENDING
+INFO: Informed scheduler that task   ExtractProductData__Users_user_Down_57f6f1172f   has status   PENDING
+INFO: Informed scheduler that task   ExtractAmazonData__99914b932b   has status   PENDING
+DEBUG: Checking if TransformProductData(output_file=/Users/user/data-eng/data/transform/transform_product_data.csv) is complete
+DEBUG: Checking if ValidateData() is complete
+INFO: Informed scheduler that task   TransformProductData__Users_user_data_f93dc5854a   has status   PENDING
+DEBUG: Checking if ExtractAmazonData() is complete
+DEBUG: Checking if ExtractProductData(csv_file=/Users/user/Downloads/ElectronicsProductsPricingData.csv) is complete
+DEBUG: Checking if ExtractMydramalistData(total_pages=45) is complete
+INFO: Informed scheduler that task   ValidateData__99914b932b   has status   PENDING
+INFO: Informed scheduler that task   ExtractMydramalistData_45_a768cdd764   has status   PENDING
+INFO: Informed scheduler that task   ExtractProductData__Users_user_Down_57f6f1172f   has status   PENDING
+INFO: Informed scheduler that task   ExtractAmazonData__99914b932b   has status   PENDING
+DEBUG: Checking if TransformMydramalistData(output_file=/Users/user/data-eng/data/transform/transform_mydramalist_data.csv) is complete
+DEBUG: Checking if ValidateData() is complete
+INFO: Informed scheduler that task   TransformMydramalistData__Users_user_data_eb0df64f41   has status   PENDING
+DEBUG: Checking if ExtractAmazonData() is complete
+DEBUG: Checking if ExtractProductData(csv_file=/Users/user/Downloads/ElectronicsProductsPricingData.csv) is complete
+DEBUG: Checking if ExtractMydramalistData(total_pages=45) is complete
+INFO: Informed scheduler that task   ValidateData__99914b932b   has status   PENDING
+INFO: Informed scheduler that task   ExtractMydramalistData_45_a768cdd764   has status   PENDING
+INFO: Informed scheduler that task   ExtractProductData__Users_user_Down_57f6f1172f   has status   PENDING
+INFO: Informed scheduler that task   ExtractAmazonData__99914b932b   has status   PENDING
+DEBUG: Checking if LoadData() is complete
+DEBUG: Checking if TransformAmazonData(output_file=/Users/user/data-eng/data/transform/transform_amazon_data.csv) is complete
+DEBUG: Checking if TransformProductData(output_file=/Users/user/data-eng/data/transform/transform_product_data.csv) is complete
+DEBUG: Checking if TransformMydramalistData(output_file=/Users/user/data-eng/data/transform/transform_mydramalist_data.csv) is complete
+INFO: Informed scheduler that task   LoadData__99914b932b   has status   PENDING
+DEBUG: Checking if ValidateData() is complete
+INFO: Informed scheduler that task   TransformMydramalistData__Users_user_data_eb0df64f41   has status   PENDING
+DEBUG: Checking if ExtractAmazonData() is complete
+DEBUG: Checking if ExtractProductData(csv_file=/Users/user/Downloads/ElectronicsProductsPricingData.csv) is complete
+DEBUG: Checking if ExtractMydramalistData(total_pages=45) is complete
+INFO: Informed scheduler that task   ValidateData__99914b932b   has status   PENDING
+INFO: Informed scheduler that task   ExtractMydramalistData_45_a768cdd764   has status   PENDING
+INFO: Informed scheduler that task   ExtractProductData__Users_user_Down_57f6f1172f   has status   PENDING
+INFO: Informed scheduler that task   ExtractAmazonData__99914b932b   has status   PENDING
+INFO: Informed scheduler that task   TransformProductData__Users_user_data_f93dc5854a   has status   PENDING
+INFO: Informed scheduler that task   TransformAmazonData__Users_user_data_3b6480bd26   has status   PENDING
+INFO: Done scheduling tasks
+INFO: Running Worker with 1 processes
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 8
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) running   ExtractAmazonData()
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) done      ExtractAmazonData()
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   ExtractAmazonData__99914b932b   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 7
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) running   ExtractProductData(csv_file=/Users/user/Downloads/ElectronicsProductsPricingData.csv)
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) done      ExtractProductData(csv_file=/Users/user/Downloads/ElectronicsProductsPricingData.csv)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   ExtractProductData__Users_user_Down_57f6f1172f   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 6
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) running   ExtractMydramalistData(total_pages=45)
+Scraping Pages:   0%|          | 0/45 [00:00<?, ?it/s]Scraping Pages:   2%|▏         | 1/45 [00:00<00:39,  1.10it/s]Scraping Pages:   4%|▍         | 2/45 [00:01<00:34,  1.24it/s]Scraping Pages:   7%|▋         | 3/45 [00:02<00:32,  1.29it/s]Scraping Pages:   9%|▉         | 4/45 [00:04<00:46,  1.13s/it]Scraping Pages:  11%|█         | 5/45 [00:04<00:40,  1.01s/it]Scraping Pages:  13%|█▎        | 6/45 [00:05<00:35,  1.10it/s]Scraping Pages:  16%|█▌        | 7/45 [00:07<00:42,  1.12s/it]Scraping Pages:  18%|█▊        | 8/45 [00:07<00:36,  1.00it/s]Scraping Pages:  20%|██        | 9/45 [00:08<00:33,  1.09it/s]Scraping Pages:  22%|██▏       | 10/45 [00:09<00:32,  1.07it/s]Scraping Pages:  24%|██▍       | 11/45 [00:10<00:30,  1.11it/s]Scraping Pages:  27%|██▋       | 12/45 [00:11<00:27,  1.18it/s]Scraping Pages:  29%|██▉       | 13/45 [00:11<00:25,  1.23it/s]Scraping Pages:  31%|███       | 14/45 [00:12<00:24,  1.24it/s]Scraping Pages:  33%|███▎      | 15/45 [00:13<00:23,  1.29it/s]Scraping Pages:  36%|███▌      | 16/45 [00:14<00:22,  1.30it/s]Scraping Pages:  38%|███▊      | 17/45 [00:14<00:22,  1.24it/s]Scraping Pages:  40%|████      | 18/45 [00:15<00:21,  1.25it/s]Scraping Pages:  42%|████▏     | 19/45 [00:16<00:21,  1.22it/s]Scraping Pages:  44%|████▍     | 20/45 [00:17<00:18,  1.37it/s]Scraping Pages:  47%|████▋     | 21/45 [00:17<00:18,  1.33it/s]Scraping Pages:  49%|████▉     | 22/45 [00:18<00:17,  1.30it/s]Scraping Pages:  51%|█████     | 23/45 [00:19<00:17,  1.25it/s]Scraping Pages:  53%|█████▎    | 24/45 [00:20<00:16,  1.26it/s]Scraping Pages:  56%|█████▌    | 25/45 [00:21<00:14,  1.34it/s]Scraping Pages:  58%|█████▊    | 26/45 [00:21<00:14,  1.34it/s]Scraping Pages:  60%|██████    | 27/45 [00:22<00:13,  1.33it/s]Scraping Pages:  62%|██████▏   | 28/45 [00:23<00:11,  1.45it/s]Scraping Pages:  64%|██████▍   | 29/45 [00:23<00:10,  1.47it/s]Scraping Pages:  67%|██████▋   | 30/45 [00:24<00:10,  1.37it/s]Scraping Pages:  69%|██████▉   | 31/45 [00:26<00:13,  1.04it/s]Scraping Pages:  71%|███████   | 32/45 [00:26<00:11,  1.13it/s]Scraping Pages:  73%|███████▎  | 33/45 [00:27<00:09,  1.22it/s]Scraping Pages:  76%|███████▌  | 34/45 [00:28<00:08,  1.26it/s]Scraping Pages:  78%|███████▊  | 35/45 [00:29<00:07,  1.26it/s]Scraping Pages:  80%|████████  | 36/45 [00:29<00:06,  1.42it/s]Scraping Pages:  82%|████████▏ | 37/45 [00:30<00:05,  1.44it/s]Scraping Pages:  84%|████████▍ | 38/45 [00:31<00:06,  1.12it/s]Scraping Pages:  87%|████████▋ | 39/45 [00:33<00:06,  1.09s/it]Scraping Pages:  89%|████████▉ | 40/45 [00:33<00:04,  1.02it/s]Scraping Pages:  91%|█████████ | 41/45 [00:34<00:03,  1.10it/s]Scraping Pages:  93%|█████████▎| 42/45 [00:35<00:02,  1.14it/s]Scraping Pages:  96%|█████████▌| 43/45 [00:36<00:01,  1.16it/s]Scraping Pages:  98%|█████████▊| 44/45 [00:36<00:00,  1.23it/s]Scraping Pages: 100%|██████████| 45/45 [00:37<00:00,  1.27it/s]Scraping Pages: 100%|██████████| 45/45 [00:37<00:00,  1.20it/s]
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) done      ExtractMydramalistData(total_pages=45)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   ExtractMydramalistData_45_a768cdd764   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 5
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) running   ValidateData()
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) done      ValidateData()
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   ValidateData__99914b932b   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 4
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) running   TransformAmazonData(output_file=/Users/user/data-eng/data/transform/transform_amazon_data.csv)
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) done      TransformAmazonData(output_file=/Users/user/data-eng/data/transform/transform_amazon_data.csv)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   TransformAmazonData__Users_user_data_3b6480bd26   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 3
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) running   TransformProductData(output_file=/Users/user/data-eng/data/transform/transform_product_data.csv)
+/Users/user/data-eng/etl_pipeline.py:282: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  .fillna(method='bfill')
+/Users/user/data-eng/etl_pipeline.py:288: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  transform_product_data[col] = pd.to_datetime(transform_product_data[col], errors='coerce').fillna(method='bfill')
+/Users/user/data-eng/etl_pipeline.py:288: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  transform_product_data[col] = pd.to_datetime(transform_product_data[col], errors='coerce').fillna(method='bfill')
+/Users/user/data-eng/etl_pipeline.py:288: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  transform_product_data[col] = pd.to_datetime(transform_product_data[col], errors='coerce').fillna(method='bfill')
+/Users/user/data-eng/etl_pipeline.py:288: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  transform_product_data[col] = pd.to_datetime(transform_product_data[col], errors='coerce').fillna(method='bfill')
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) done      TransformProductData(output_file=/Users/user/data-eng/data/transform/transform_product_data.csv)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   TransformProductData__Users_user_data_f93dc5854a   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 2
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) running   TransformMydramalistData(output_file=/Users/user/data-eng/data/transform/transform_mydramalist_data.csv)
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) done      TransformMydramalistData(output_file=/Users/user/data-eng/data/transform/transform_mydramalist_data.csv)
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   TransformMydramalistData__Users_user_data_eb0df64f41   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Pending tasks: 1
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) running   LoadData()
+INFO: [pid 35804] Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) done      LoadData()
+DEBUG: 1 running tasks, waiting for next task to finish
+INFO: Informed scheduler that task   LoadData__99914b932b   has status   DONE
+DEBUG: Asking scheduler for work...
+DEBUG: Done
+DEBUG: There are no more tasks to run at this time
+INFO: Worker Worker(salt=5103552474, workers=1, host=zahrazalfa.local, username=user, pid=35804) was stopped. Shutting down Keep-Alive thread
+INFO: 
+===== Luigi Execution Summary =====
+
+Scheduled 8 tasks of which:
+* 8 ran successfully:
+    - 1 ExtractAmazonData()
+    - 1 ExtractMydramalistData(total_pages=45)
+    - 1 ExtractProductData(csv_file=/Users/user/Downloads/ElectronicsProductsPricingData.csv)
+    - 1 LoadData()
+    - 1 TransformAmazonData(output_file=/Users/user/data-eng/data/transform/transform_amazon_data.csv)
+    ...
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
+===== Data Quality Pipeline Start =====
+
+===== Check Data Shape =====
+
+Data Shape for this Data (100892, 10)
+
+===== Check Data Types =====
+
+Column name has data type object
+Column main_category has data type object
+Column sub_category has data type object
+Column image has data type object
+Column link has data type object
+Column ratings has data type object
+Column no_of_ratings has data type object
+Column discount_price has data type object
+Column actual_price has data type object
+Column Unnamed: 0 has data type float64
+
+===== Check Missing Values =====
+
+Columns name has percentages missing values 0.0 %
+Columns main_category has percentages missing values 0.0 %
+Columns sub_category has percentages missing values 0.0 %
+Columns image has percentages missing values 0.0 %
+Columns link has percentages missing values 0.0 %
+Columns ratings has percentages missing values 31.942076676049638 %
+Columns no_of_ratings has percentages missing values 31.942076676049638 %
+Columns discount_price has percentages missing values 11.067279863616541 %
+Columns actual_price has percentages missing values 3.1925226975379615 %
+Columns Unnamed: 0 has percentages missing values 49.97224755183761 %
+===== Data Quality Pipeline End =====
+
+===== Data Quality Pipeline Start =====
+
+===== Check Data Shape =====
+
+Data Shape for this Data (7249, 31)
+
+===== Check Data Types =====
+
+Column id has data type object
+Column prices.amountMax has data type float64
+Column prices.amountMin has data type float64
+Column prices.availability has data type object
+Column prices.condition has data type object
+Column prices.currency has data type object
+Column prices.dateSeen has data type object
+Column prices.isSale has data type bool
+Column prices.merchant has data type object
+Column prices.shipping has data type object
+Column prices.sourceURLs has data type object
+Column asins has data type object
+Column brand has data type object
+Column categories has data type object
+Column dateAdded has data type object
+Column dateUpdated has data type object
+Column ean has data type object
+Column imageURLs has data type object
+Column keys has data type object
+Column manufacturer has data type object
+Column manufacturerNumber has data type object
+Column name has data type object
+Column primaryCategories has data type object
+Column sourceURLs has data type object
+Column upc has data type object
+Column weight has data type object
+Column Unnamed: 26 has data type object
+Column Unnamed: 27 has data type object
+Column Unnamed: 28 has data type float64
+Column Unnamed: 29 has data type object
+Column Unnamed: 30 has data type object
+
+===== Check Missing Values =====
+
+Columns id has percentages missing values 0.0 %
+Columns prices.amountMax has percentages missing values 0.0 %
+Columns prices.amountMin has percentages missing values 0.0 %
+Columns prices.availability has percentages missing values 0.0 %
+Columns prices.condition has percentages missing values 0.0 %
+Columns prices.currency has percentages missing values 0.0 %
+Columns prices.dateSeen has percentages missing values 0.0 %
+Columns prices.isSale has percentages missing values 0.0 %
+Columns prices.merchant has percentages missing values 0.0 %
+Columns prices.shipping has percentages missing values 40.998758449441304 %
+Columns prices.sourceURLs has percentages missing values 0.0 %
+Columns asins has percentages missing values 0.0 %
+Columns brand has percentages missing values 0.0 %
+Columns categories has percentages missing values 0.0 %
+Columns dateAdded has percentages missing values 0.0 %
+Columns dateUpdated has percentages missing values 0.0 %
+Columns ean has percentages missing values 78.71430542143744 %
+Columns imageURLs has percentages missing values 0.0 %
+Columns keys has percentages missing values 0.0 %
+Columns manufacturer has percentages missing values 55.37315491791971 %
+Columns manufacturerNumber has percentages missing values 0.0 %
+Columns name has percentages missing values 0.0 %
+Columns primaryCategories has percentages missing values 0.0 %
+Columns sourceURLs has percentages missing values 0.0 %
+Columns upc has percentages missing values 0.0 %
+Columns weight has percentages missing values 0.0 %
+Columns Unnamed: 26 has percentages missing values 99.46199475789764 %
+Columns Unnamed: 27 has percentages missing values 99.75168988826044 %
+Columns Unnamed: 28 has percentages missing values 99.91722996275348 %
+Columns Unnamed: 29 has percentages missing values 99.83445992550696 %
+Columns Unnamed: 30 has percentages missing values 99.91722996275348 %
+===== Data Quality Pipeline End =====
+
+===== Data Quality Pipeline Start =====
+
+===== Check Data Shape =====
+
+Data Shape for this Data (531, 6)
+
+===== Check Data Types =====
+
+Column reviewer has data type object
+Column profile_link has data type object
+Column review_date has data type object
+Column helpful_count has data type int64
+Column overall_rating has data type float64
+Column review_body has data type object
+
+===== Check Missing Values =====
+
+Columns reviewer has percentages missing values 0.0 %
+Columns profile_link has percentages missing values 0.0 %
+Columns review_date has percentages missing values 0.0 %
+Columns helpful_count has percentages missing values 0.0 %
+Columns overall_rating has percentages missing values 0.0 %
+Columns review_body has percentages missing values 0.0 %
+===== Data Quality Pipeline End =====
+

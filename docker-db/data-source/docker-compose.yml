@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  amazon_sales_db:
+    image: shandytp/amazon-sales-data-docker-db:latest
+    container_name: amazon_sales
+    platform: linux/amd64
+    restart: always
+    environment:
+      POSTGRES_USER: ${SOURCE_DB_USERNAME}
+      POSTGRES_PASSWORD: ${SOURCE_DB_PASSWORD}
+      POSTGRES_DB: ${SOURCE_DB_NAME}
+    ports:
+      - "5436:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

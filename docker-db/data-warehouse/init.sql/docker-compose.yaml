@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  load_db:
+    image: postgres:latest
+    container_name: load_db_container
+    platform: linux/amd64
+    environment:
+      POSTGRES_USER: ${LOAD_DB_USERNAME}
+      POSTGRES_PASSWORD: ${LOAD_DB_PASSWORD}
+      POSTGRES_DB: ${LOAD_DB_NAME}
+    ports:
+      - "${LOAD_DB_PORT}:5432"
+    volumes:
+      - load_db_data:/var/lib/postgresql/data
+      - ./data_warehouse/init.sql:/docker-entrypoint-initdb.d/init.sql 
+
+volumes:
+  load_db_data:
